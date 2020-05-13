@@ -44,7 +44,6 @@ class TicTacToe
   end
 
   def turn
-    display_board
     puts "please choose a number 1-9 to place your piece!"
     input = gets.strip
     index = input_to_index(input)
